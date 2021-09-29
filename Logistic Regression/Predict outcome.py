@@ -43,8 +43,8 @@ def predict_survival (df):
     return df 
 
 """Set work folder with input files"""
-os.chdir('C:\\Lab\\Python\\NB\\GitHub\\')
-#os.chdir('C:\\Work_dir\\')
+
+os.chdir('C:\\Work_dir\\')
 """list of datasets for survival prediction"""
 datasets= {'Cangelosi': 'Tumor Neuroblastoma integrated platforms - Cangelosi - 786_GFgenes_norm.xlsx',
            'NRC': 'NRC_GFgenes_norm.xlsx',
