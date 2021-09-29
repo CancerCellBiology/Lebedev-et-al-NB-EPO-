@@ -5,8 +5,7 @@ from sklearn.metrics import roc_auc_score
 import matplotlib.pyplot as plt
 import matplotlib
 
-os.chdir('C:\\Lab\\Python\\NB\\GitHub\\')
-#os.chdir('C:\\Work_dir\\')
+os.chdir('C:\\Work_dir\\')
 
 """Select datasets with calculated scores and known outcomes,
     choose colors for each dataset"""
