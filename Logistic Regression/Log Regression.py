@@ -53,8 +53,8 @@ def log_reg (df1, l1, c, genes):
     return log_model, log_model.intercept_, df_coef
     
 """Set work folder and load dataset with survival data and genes used for analysis""" 
-os.chdir('C:\\Lab\\Python\\NB\\GitHub\\')
-#os.chdir('C:\\Work_dir\\')
+
+os.chdir('C:\\Work_dir\\')
 data = pd.read_excel('Tumor Neuroblastoma integrated platforms - Cangelosi - 786_GFgenes_norm.xlsx')
 df_set = pd.read_excel('Diff genes.xlsx')
 genes_valid= list(set(data.columns) & set(df_set['Gene']))
