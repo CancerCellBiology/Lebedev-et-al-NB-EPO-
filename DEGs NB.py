@@ -41,7 +41,7 @@ def diff_genes(data, cl, status):
 
 
 
-os.chdir('C:\\Lab\\Python\\NB\\DiffGenes\\')
+os.chdir('C:\\Work_dir\\')
 input_file='UMAP_NB_v2_noSEQC_correlation_50_v2_no-outliners.xlsx'
 df_umap= pd.read_excel(input_file)
 file_name= input_file.split('.')[0].split('_')
